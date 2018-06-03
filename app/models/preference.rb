@@ -1,3 +1,3 @@
-class Admin::Preference < ActiveRecord::Base
+class Admin::PreferencesController < ApplicationController
 
 end
