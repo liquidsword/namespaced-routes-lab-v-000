@@ -15,5 +15,3 @@ class Admin::PreferencesController < ApplicationController
     params.require(:preference).permit(:allow_create_songs, :allow_create_artists, :song_sort_order, :artist_sort_order)
   end
 end
-
-end
